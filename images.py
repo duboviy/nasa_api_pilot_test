@@ -1,7 +1,7 @@
 import io
 
 import requests
-# import scipy.misc
+import scipy.misc
 
 
 def _get_url_content(url):
