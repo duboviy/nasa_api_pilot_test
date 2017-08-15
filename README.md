@@ -8,6 +8,7 @@ Pilot test framework for testing NASA's open API (https://api.nasa.gov/index.htm
 pip install -r requirements.txt
 ```
 
+
 ## How to run tests
 
 ```
@@ -20,14 +21,15 @@ or simply:
 python main.py
 ```
 
-## Supported python versions
-
-  * 3.6
-  * 2.7
-
 
 ## CI
 
 [![Build Status](https://travis-ci.org/duboviy/nasa_api_pilot_test.svg?branch=master)](https://travis-ci.org/duboviy/nasa_api_pilot_test)
 
 Expected that TravisCI build should be failed. That's because 3 / 7 test cases are failing due to real issues.
+
+
+## Supported python versions
+
+  * 3.6
+  * 2.7
